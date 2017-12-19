@@ -2,24 +2,17 @@ body {
     margin: 0;
 }
 
-/* SLIDENAV STYLES */
-
-#fp-nav ul li a span, 
-.fp-slidesNav ul li a span {
-	background: white;
-	width: 8px;
-	height: 8px;
-	margin: -4px 0 0 -4px;
+#fp-nav a span, .fp-slidesNav a span {
+    background: #1c2d7f !important;
 }
 
+/* SLIDENAV STYLES */
 #fp-nav ul li a.active span, 
 .fp-slidesNav ul li a.active span, 
-#fp-nav ul li:hover a.active span, 
-.fp-slidesNav ul li:hover a.active span {
-	width: 16px;
-	height: 16px;
+#fp-nav a.active span, 
+.fp-slidesNav a.active span {
 	margin: -8px 0 0 -8px;
-	background: transparent;
+	background: #87A90c !important;
 	box-sizing: border-box;
 	border: 1px solid #24221F;
 }
