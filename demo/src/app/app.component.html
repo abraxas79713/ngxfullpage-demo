@@ -1,0 +1,41 @@
+<header>
+  <div (click)="toggleMenu(1);" [ngClass]="{'open-menu': menuOpened === 1}" class="header-top clearfix">
+    <h1 class="l-left"><a href="#menuAnchor1">Your Logo</a></h1>
+    <a class="l-right toggle-menu" href="#">
+      <i></i>
+      <i></i>
+      <i></i>
+    </a>
+  </div>
+  <nav class="hide">
+    <ul id="menu">
+      <li data-menuanchor="menuAnchor1">
+        <a href="#menuAnchor1" title="First Section">First Section</a>
+      </li>
+      <li data-menuanchor="menuAnchor2">
+        <a href="#menuAnchor2" title="Second Section">Second Section</a>
+      </li>
+      <li data-menuanchor="menuAnchor3">
+        <a href="#menuAnchor3" title="Third Section">Third Section</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<div mnFullpage class="fullpage-wrapper">
+  <section data-anchor="menuAnchor1" class="section welcome-section fp-section fp-table">
+    <div class="fp-tableCell">
+      Section 1
+    </div>
+  </section>
+  <section data-anchor="menuAnchor2" class="section welcome-section fp-section fp-table">
+    <div class="fp-tableCell">
+      Section 2
+    </div>
+  </section>
+  <section data-anchor="menuAnchor3" class="section welcome-section fp-section fp-table">
+    <div class="fp-tableCell">
+      Section 3
+    </div>
+  </section>
+</div>
+
