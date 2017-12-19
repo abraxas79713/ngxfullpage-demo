@@ -18,24 +18,32 @@
       <li data-menuanchor="menuAnchor3">
         <a href="#menuAnchor3" title="Third Section">Third Section</a>
       </li>
+      <li data-menuanchor="menuAnchor4">
+        <a href="#menuAnchor4" title="Fourth Section">Third Section</a>
+      </li>
     </ul>
   </nav>
 </header>
-<div mnFullpage class="fullpage-wrapper">
-  <section data-anchor="menuAnchor1" class="section welcome-section fp-section fp-table">
+<div mnFullpage [mnFullpageNavigation]="true" [mnFullpageKeyboardScrolling]="true"
+[mnFullpageControlArrows]="false" class="fullpage-wrapper">
+  <section data-anchor="menuAnchor1" class="section fp-section fp-table">
     <div class="fp-tableCell">
       Section 1
     </div>
   </section>
-  <section data-anchor="menuAnchor2" class="section welcome-section fp-section fp-table">
+  <section data-anchor="menuAnchor2" class="section fp-section fp-table">
     <div class="fp-tableCell">
       Section 2
     </div>
   </section>
-  <section data-anchor="menuAnchor3" class="section welcome-section fp-section fp-table">
+  <section data-anchor="menuAnchor3" class="section fp-section fp-table">
     <div class="fp-tableCell">
       Section 3
     </div>
   </section>
+  <section data-anchor="menuAnchor4" class="section fp-section fp-table">
+    <div class="fp-tableCell">
+      Section 4
+    </div>
+  </section>
 </div>
-
