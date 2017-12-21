@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { MnFullpageDirective, MnFullpageService  } from 'ngx-fullpage';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { MnFullpageDirective, MnFullpageService  } from 'ngx-fullpage';
     MnFullpageDirective
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule.forRoot()
   ],
   providers: [
     MnFullpageService

@@ -34,12 +34,7 @@
 
 /* RESET-GENERAL STYLES */
 
-* {
-	margin: 0;
-	padding: 0;
-	font-family: 'Alegreya Sans', Arial, sans-serif;
-	text-transform: uppercase;
-}
+
 
 html {
 	font-size: 62.5%;
@@ -59,11 +54,11 @@ ul, li {
 	list-style-type: none;
 }
 
-
 /* Nav Styles */
 
 .header-top {
-	background: rgba(135,169,12, .8);
+	background-image: url(../assets/cubes.png);
+	background-color: rgba(135,169,12, 1);		
 	height: 70px;
 	padding: 0 10px;
 	position: fixed;
@@ -71,6 +66,10 @@ ul, li {
 	width: 100%;
 	z-index: 12;
 	box-sizing: border-box;
+}
+
+.header-top:after {
+	
 }
 
 h1 {
@@ -147,6 +146,11 @@ nav {
  	padding: 80px 0;
 	z-index: 15;
 	height: calc(90vh - 70px);
+}
+
+.testimonials-title {
+	position: absolute;
+	top: 25%;
 }
 
 nav ul {

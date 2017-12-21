@@ -21,41 +21,45 @@
       <li data-menuanchor="menuAnchor4">
         <a href="#menuAnchor4" title="Contact">Contact</a>
       </li>
-      <li data-menuanchor="menuAnchor5">
-          <a href="#menuAnchor5" title="Contact">Contact1</a>
-        </li>
     </ul>
   </nav>
 </header>
 <div mnFullpage [mnFullpageNavigation]="true" [mnFullpageKeyboardScrolling]="true"
 [mnFullpageControlArrows]="false" [mnFullpageSlidesNavigation]="true" class="fullpage-wrapper">
-  <section data-anchor="menuAnchor1" class="section fp-section fp-table">
+  <section data-anchor="menuAnchor1" class="container section fp-section fp-table">
     <div class="fp-tableCell">
       Home
     </div>
   </section>
-  <section data-anchor="menuAnchor2" class="section fp-section fp-table">
+  <section data-anchor="menuAnchor2" class="container section fp-section fp-table">
     <div class="fp-tableCell">
       About
     </div>
   </section>
-  <section data-anchor="menuAnchor3" class="section fp-section fp-table">
-    <div class="fp-tableCell">
+  <section data-anchor="menuAnchor3" class="container section fp-section fp-table">      
+    <div class="row">
+      <div class="col align-self-center testimonials-title">
       <h1>Testimonials</h1>
-        <div class="slide"> Slide 1 </div>
-        <div class="slide"> Slide 2 </div>
-        <div class="slide"> Slide 3 </div>
-        <div class="slide"> Slide 4 </div>      
+      </div>
+    </div>
+    <div class="fp-tableCell">          
+        <div class="slide">
+            <h1>Slide 1</h1> 
+        </div>
+        <div class="slide">
+            <h1>Slide 2</h1> 
+        </div>   
+        <div class="slide">
+            <h1>Slide 3</h1> 
+        </div>   
+        <div class="slide">
+            <h1>Slide 4</h1> 
+        </div>  
     </div>
   </section>
-  <section data-anchor="menuAnchor4" class="section fp-section fp-table">
+  <section data-anchor="menuAnchor4" class="container section fp-section fp-table">
     <div class="fp-tableCell">
       Contact
     </div>
   </section>
-  <section data-anchor="menuAnchor5" class="section fp-section fp-table">
-      <div class="fp-tableCell">
-        Contact1
-      </div>
-    </section>
 </div>
